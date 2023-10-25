@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@400;700&display=swap');
+:root{
+   --branco-primario: #FFF;
+   --cinza-secundario: #C0C0C0;
+   --cor-botao: #167BF7;
+   --cor-de-fundo: #00030C;
+   --fonte-principal: 'Inter'
+} 
+
+body{
+    background-color: var(--cor-de-fundo);
+}
+
+.container__titulo{
+    color: var(--branco-primario);
+    font-family: var(--fonte-principal);
+    font-size: 1.75rem;
+    font-weight: 700;
+    width: 36.75rem;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+       
+
+    
+    
+}
+
+.container__caixa{
+    margin: 7.8rem 0 0 3.37rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 36.75rem;
+    height: 26.94rem;
+    
+}
+.container__botao{
+    color:var(--branco-primario);
+    background-color: var(--cor-botao);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1rem;
+    width: 32rem;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.container__botao_secundario{
+    color: var(--branco-primario);
+    background-color: transparent;
+    border: 2px solid var(--branco-primario);
+    width: 32rem;
+    padding: 1rem;
+    font-display: flex;
+    border-radius: 8px;
+    margin-bottom: 0.63rem;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+    
+    
+}
+
+.container__aviso{
+    color: var(--branco-primario);
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+
+
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+
+.secundario{
+    display: flex;
+    align-items: center;
+    margin: 0 10em;
+    gap: 4.31rem;
+}
+
+
+.descricao__titulo{
+    color:var(--branco-primario);
+    font-family: var(--fonte-principal);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.descricao__texto{
+    color: var(--cinza-secundario);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+.terciario{
+    display: flex;
+    align-items: center;
+    margin: 0 8rem;
+    gap: 10rem;
+
+}
+
+.terciario__botao{
+    display: inline-block;
+    width: 10rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    
+}
+.quaternario{
+    display: flex;
+    align-items: center;
+    margin: 0 7.5rem 0 8.8rem;
+    gap: 2.75rem;
+
+}
+
+.quinario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px 69px;
+    
+}
+.descricao__dispositivo{
+    color: var(--branco-primario);
+    font-family: var(--fonte-principal);
+    font-size: 2rem;
+    font-weight: 700;
+}
+.dispositivos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.imagens__dispositivos{
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+.imagem__dispositivo_descricao{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.rodape__logo{
+    margin-bottom: 2.5rem;
+}
+
+.rodape__texto{
+    color:var(--cinza-secundario);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    text-align: center;
+    width: 1350px;
+    margin-bottom: 1.5rem;
+
+}
+
+.rodape__links{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    
+}
+
+.rodape__links_nav{
+    text-decoration: none;
+    color: var(--branco-primario);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.rodape__links_nav:hover{
+    color: var(--cor-botao);
+}
+
+.rodape__links_nav:active{
+    color:aquamarine;
+}
+.botao:hover{
+    background-color: #378ef8;
+    color: var(--cor-de-fundo);
+}
+
